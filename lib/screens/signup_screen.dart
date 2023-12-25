@@ -31,7 +31,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           Expanded(
             flex: 7,
             child: Container(
-              padding: const EdgeInsets.fromLTRB(25.0, 50.0, 25.0, 20.0),
+              padding: const EdgeInsets.fromLTRB(25.0, 35.0, 25.0, 20.0),
               decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
@@ -56,7 +56,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                       const SizedBox(
-                        height: 40.0,
+                        height: 32.0,
                       ),
                       // full name
                       TextFormField(
@@ -151,7 +151,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                       const SizedBox(
-                        height: 25.0,
+                        height: 20.0,
                       ),
                       // i agree to the processing
                       Row(
@@ -207,7 +207,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                       const SizedBox(
-                        height: 30.0,
+                        height: 15.0,
                       ),
                       // sign up divider
                       Row(
@@ -253,7 +253,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ],
                       ),
                       const SizedBox(
-                        height: 25.0,
+                        height: 10.0,
                       ),
                       // already have an account
                       Row(
