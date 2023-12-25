@@ -181,7 +181,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ],
                       ),
                       const SizedBox(
-                        height: 25.0,
+                        height: 15.0,
                       ),
                       // signup button
                       SizedBox(
@@ -207,7 +207,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ),
                       const SizedBox(
-                        height: 15.0,
+                        height: 19.0,
                       ),
                       // sign up divider
                       Row(
