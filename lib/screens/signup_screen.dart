@@ -4,7 +4,7 @@ import 'package:icons_plus/icons_plus.dart';
 import 'package:untitled1/theme/theme.dart';
 import 'package:untitled1/widgets/custom_scaffold.dart';
 import 'package:untitled1/screens/signin_screen.dart';
-
+import 'package:untitled1/screens/restaurantname.dart';
 import '../theme/theme.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -187,9 +187,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: () {
+                         // onPressed: () {
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => RestaurantName()),
+                              );
+
+                           // onTap: const MenuPage();
                             if (_formSignupKey.currentState!.validate() &&
                                 agreePersonalData) {
+
                               ScaffoldMessenger.of(context).showSnackBar(
                                 const SnackBar(
                                   content: Text('Processing Data'),
@@ -204,6 +212,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             }
                           },
                           child: const Text('Sign up'),
+
                         ),
                       ),
                       const SizedBox(
